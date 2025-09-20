@@ -1,104 +1,117 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous" />
-        <link rel="stylesheet" href="./asset/style.css">
-    </head>
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
-        <main>
-            <nav class="navbar navbar-expand-lg py-4 text-white ">
-                <div class="container ">
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
 
-                    <button class="navbar-toggler " type="button"
-                        data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="navigation d-flex justify-content-between">
-                        <a class="navbar-brand text-white flex-grow-1" href="#">
-                            <h3>colega <span class="superscript">TM</span></h3>
+<body>
+
+    <main>
+        <nav class="navbar navbar-expand-lg py-4 text-white ">
+            <div class="container ">
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navigation d-flex justify-content-around w-100">
+                    <div class="logo flex-grow-1">
+                        <a class="navbar-brand text-white flex-grow-" href="#">
+                            <h3 class="display-5 fw-bold">colega <span class="superscript">TM</span></h3>
                         </a>
-                        <div class="collapse navbar-collapse " id="navbarNav">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link text-white active"
-                                        aria-current="page"
-                                        href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white"
-                                        href="#">Features</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white"
-                                        href="#">Pricing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-white"
-                                        href="#">Disabled</a>
-                                </li>
-                            </ul>
+                    </div>
+                    <div class="collapse navbar-collapse ms-5" id="navbarNav">
+                        <ul class="navbar-nav d-flex ms-5">
+                            <li class="nav-item m-3">
+                                <a class="nav-link text-white active h3 fw-medium" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link text-white h3 fw-medium" href="#">Features</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link text-white h3 fw-medium" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item m-3">
+                                <a class="nav-link text-white h3 fw-medium" href="#">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+        <section class="slider">
+            <div id="carouselExample" class="carousel slide " style="width: 100%;">
+                <div class="carousel-inner d-flex justify-content-around my-5">
+                    <div class="carousel-item active text-center">
+                        <img src="./asset/img/02hero.jpg" class="d-block w-50 position-relative mb-5" alt="...">
+                        <div class="carousel-content w-50  position-absolute top-0 mt-5  pt-5">
+                            <h2 class="display-1 text-white fw-bold text-center mt-5 pt-5">Iceland</h2>
+                            <h5 class="text-white fw-bold text-center">Photography</h5>
                         </div>
 
                     </div>
-                </div>
-            </nav>
-
-            <section class="slider">
-                <div id="carouselExample" class="carousel slide">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./asset/img/02hero.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./asset/img/06hero.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./asset/img/slider1.jpg" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./asset/img/slider2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-item">
+                        <img src="./asset/img/06hero.jpg" class="d-block w-50 position-relative mb-5" alt="...">
+                        <div class="carousel-content w-50  position-absolute top-0 mt-5  pt-5">
+                            <h2 class="display-1 text-white fw-bold text-center mt-5 pt-5">Cairs Root </h2>
+                            <h5 class="text-white fw-bold text-center">Product design</h5>
                         </div>
                     </div>
-                                            <button class="carousel-control-prev" type="button" onclick="prev()">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" onclick="next()">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-
+                    <div class="carousel-item">
+                        <img src="./asset/img/slider1.jpg" class="d-block w-50 position-relative mb-5" alt="...">
+                        <div class="carousel-content w-50  position-absolute top-0 mt-5  pt-5">
+                            <h2 class="display-1 text-white fw-bold text-center mt-5 pt-5">Tag Watch</h2>
+                            <h5 class="text-white fw-bold text-center">Product Design</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./asset/img/slider2.jpg" class="d-block w-50 position-relative mb-5" alt="...">
+                        <div class="carousel-content w-50  position-absolute top-0 mt-5  pt-5">
+                            <h2 class="display-1 text-white fw-bold text-center mt-5 pt-5">Bauman</h2>
+                            <h5 class="text-white fw-bold text-center"> Web Design</h5>
+                        </div>
+                    </div>
                 </div>
-            </section>
-        </main>
 
-        <!-- Bootstrap JavaScript Libraries -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"></script>
+            </div>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"></script>
+            </div>
+            <div class="btns position-relative bottom-0 z-3 mt-5">
+                <button class="carousel-control-prev p-3" type="button" onclick="prev()">
+                    <span class="carousel-control-prev-icon bg-dark border rounded-circle p-3"
+                        aria-hidden="true"></span>
 
-        <script src="./asset/slider.js"></script>
-    </body>
+                </button>
+                <button class="carousel-control-next" type="button" onclick="next()">
+                    <span class="carousel-control-next-icon bg-dark border rounded-circle p-3 text-center"
+                        aria-hidden="true" class="width"></span>
+                </button>
+        </section>
+    </main>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./asset/slider.js"></script>
+</body>
+
 </html>
